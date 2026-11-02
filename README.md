@@ -4,6 +4,10 @@ AI-assisted trip planner for destinations across India. TravelAI generates a day
 
 > **Note:** Safety notes are based on Gemini's general knowledge (typical seasonal weather, altitude, terrain, daylight, activity difficulty). They are **not live data** and are not a guarantee of safety. Always check official advisories before travelling.
 
+Presentation - https://docs.google.com/presentation/d/1kcpK-rZy-B5uC-O3j9JAWRLb1d5rb6xh/edit?usp=drive_link&ouid=112335842459900342833&rtpof=true&sd=true
+
+Video - https://drive.google.com/file/d/1j6bTN6XQRQEx-FjmYoyc0ZNIUMLXWUEq/view?usp=drive_link
+
 ## Problem Statement
 
 Planning a trip in India means piecing together information from many places: itinerary blogs, weather apps, maps and advisories. Generic itineraries rarely account for who is travelling (age, group type, accessibility needs, hiking experience, diet), and the factors that can disrupt a plan, such as altitude, seasonal weather, terrain and daylight hours, are easy to miss, especially in mountain regions. Where tools do raise warnings, they often give no reasons or sources and make changes for the traveler instead of letting them choose.
