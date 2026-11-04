@@ -2,8 +2,6 @@
 
 AI-assisted trip planner for destinations across India. TravelAI generates a day-by-day itinerary with Google Gemini, flags travel considerations that may affect the plan, explains why each one was raised, and lets the traveler decide what changes.
 
-> **Note:** Safety notes are based on Gemini's general knowledge (typical seasonal weather, altitude, terrain, daylight, activity difficulty). They are **not live data** and are not a guarantee of safety. Always check official advisories before travelling.
-
 Presentation - https://docs.google.com/presentation/d/1kcpK-rZy-B5uC-O3j9JAWRLb1d5rb6xh/edit?usp=drive_link&ouid=112335842459900342833&rtpof=true&sd=true
 
 Video - https://drive.google.com/file/d/1j6bTN6XQRQEx-FjmYoyc0ZNIUMLXWUEq/view?usp=drive_link
@@ -138,14 +136,6 @@ Returns the parsed JSON object produced by Gemini. Error responses use `{ "error
 | 500    | `GEMINI_API_KEY` missing or internal error      |
 | 502    | Gemini returned an empty or unparseable response |
 
-## Project structure
-
-```
-.
-├── App.jsx      # React UI, state, validation and Gemini calls
-├── server.js    # Express proxy to Gemini with JSON extraction and repair
-└── .env         # Backend secrets (not committed)
-```
 
 ## Troubleshooting
 
